@@ -1,16 +1,26 @@
-## Hi there 👋
+### Olá! Sou o Nicholas 👋
 
-<!--
-**nseiC/nseiC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Engenheiro eletrônico. Trabalho com eletrônica de potência, circuitos analógicos
+e sistemas embarcados — e gosto de entender cada bloco de um CI até conseguir
+reproduzi-lo em simulação.
 
-Here are some ideas to get you started:
+#### ⚡ Modelos SPICE comportamentais
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Macromodelos de controladores de fontes chaveadas para LTspice / ngspice, feitos
+a partir dos datasheets e notas de aplicação dos fabricantes. Cada um vem com
+testes de regressão que conferem o modelo contra as tabelas do datasheet e com
+exemplos em malha fechada.
+
+| CI | Função | Exemplos |
+|---|---|---|
+| [**SG3524**](https://github.com/nseiC/SG3524-spice-model) | controlador PWM clássico | buck, boost, buck-boost inversor, push-pull |
+| [**UC3854**](https://github.com/nseiC/UC3854-spice-model) | PFC boost por corrente média | PFC de 250 W da U-134, FP 0,995 |
+| [**L6599A**](https://github.com/nseiC/L6599AD-spice-model) | controlador ressonante LLC meia-ponte | LLC 12 V / 150 W da AN3233, burst, hiccup, fonte completa PFC + LLC |
+
+#### 🛠️ Ferramentas
+
+`LTspice` · `ngspice` · `Python` · `C` · `Git`
+
+#### 📫 Contato
+
+<!-- coloque aqui seu LinkedIn / e-mail, se quiser -->
