@@ -27,7 +27,7 @@ Gera seno, rampa, sinc ou uma forma arbitrária (como um ECG sintético de 120 b
 | Parte | O que tem |
 |---|---|
 | [**Digital**](https://github.com/nseiC/dds_waveform_generator/tree/main/fpga) | VHDL na DE2-115 (Cyclone IV): acumulador de fase de 32 bits, PLL de 10 MHz, LUTs 1024 × 8, Virtual JTAG e testbench no GHDL |
-| [**Analógica**](https://github.com/nseiC/dds_waveform_generator/tree/main/analog) | Placa própria com DAC0800, conversor I→V, filtro Sallen-Key de 1 MHz e saída push-pull; projeto no Altium e simulação no LTspice |
+| [**Analógica**](https://github.com/nseiC/dds_waveform_generator/tree/main/analog) | Placa própria com DAC0800, conversor I→V, filtro Sallen-Key de 1 MHz e ajuste de ganho; projeto no Altium e simulação no LTspice |
 | [**Interface**](https://github.com/nseiC/dds_waveform_generator/tree/main/GUI) | GUI em Python que envia frequência, forma de onda e LUT arbitrária pelo USB-Blaster |
 
 #### ⚡ [LTSpice-behavioral-IC-lib](https://github.com/nseiC/LTSpice-behavioral-IC-lib)
@@ -87,7 +87,7 @@ connector. It generates sine, ramp, sinc or an arbitrary waveform (such as a syn
 | Part | What's inside |
 |---|---|
 | [**Digital**](https://github.com/nseiC/dds_waveform_generator/tree/main/fpga) | VHDL on the DE2-115 (Cyclone IV): 32-bit phase accumulator, 10 MHz PLL, 1024 × 8 LUTs, Virtual JTAG and a GHDL testbench |
-| [**Analog**](https://github.com/nseiC/dds_waveform_generator/tree/main/analog) | Custom board with a DAC0800, I→V converter, 1 MHz Sallen-Key filter and push-pull output; designed in Altium, simulated in LTspice |
+| [**Analog**](https://github.com/nseiC/dds_waveform_generator/tree/main/analog) | Custom board with a DAC0800, I→V converter, 1 MHz Sallen-Key filter and gain adjustment; designed in Altium, simulated in LTspice |
 | [**Interface**](https://github.com/nseiC/dds_waveform_generator/tree/main/GUI) | Python GUI that sends frequency, waveform and the arbitrary LUT over the USB-Blaster |
 
 #### ⚡ [LTSpice-behavioral-IC-lib](https://github.com/nseiC/LTSpice-behavioral-IC-lib)
